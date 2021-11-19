@@ -1,6 +1,14 @@
 pipeline {
 
-...output omitted...
+agent {
+
+node {
+
+label 'nodejs'
+
+}
+
+}
 
 stages {
 
@@ -23,10 +31,6 @@ stage('Frontend Tests') {
 steps {
 
 sh 'node ./frontend/test.js'
-
-}
-
-}
 
 }
 
