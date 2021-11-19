@@ -4,7 +4,7 @@ stage('Checkout') {
 
 git branch: 'main',
 
-url: 'https://github.com/YOUR_GITHUB_USER/do400-pipelines-control'
+url: 'https://github.com/nazrinoslan/do400-pipelines-control'
 
 }
 
